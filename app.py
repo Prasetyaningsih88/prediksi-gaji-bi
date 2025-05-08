@@ -13,6 +13,6 @@ years_experinece = st.number_input("Masukkan jumlah tahun bekerja:",min_value=0.
 
 #Prediksi gaji
 if st.button("Prediksi Gaji"):
-	gaji = lin_reg_loaded.prdict([[years_experience]])
+	gaji = lin_reg_loaded.predict([[years_experience]])
 	st.write(f"Gaji seseorang setelah bekerja selama {years_experience} tahun adalah ${gaji[0]:,.2f}")
 	
