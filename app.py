@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 import numpy as np
 
-#membuat model regresi linear yagn sudah disimpan
+#membuat model regresi linear yang sudah disimpan
 lin_reg_loaded=joblib.load('lin_reg_model.joblib')
 
 #judul aplikasi
